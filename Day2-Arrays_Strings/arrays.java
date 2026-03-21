@@ -33,11 +33,8 @@ public class arrays {
             System.out.println("revere arra");
             System.out.println(numbers[r]);
 
-
-
         }
 
-        
     }
 
 }
