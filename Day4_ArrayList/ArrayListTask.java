@@ -2,8 +2,8 @@ package Day4_ArrayList;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
-public class taskboth {
+import java.util.Collections;
+public class ArrayListTask {
 
     public static void main(String[] args) {
         ArrayList<Integer> nums = new ArrayList<>();
@@ -17,6 +17,7 @@ public class taskboth {
 
         }
         System.out.println("sum: " + sum);
+       
 
         // HashMap
         HashMap<String, Integer> student_marks = new HashMap<>();
@@ -32,4 +33,14 @@ public class taskboth {
 
     }
 
+    public static int max(ArrayList<Integer> ) {
+        int maxVal = list.get(0); // Start with the first element
+        for (Integer num : list) {
+            if (num > maxVal) {
+                maxVal = num;
+            }
+        }
+        return maxVal;
+
+}
 }
